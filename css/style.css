@@ -1,0 +1,15 @@
+body{
+    //font-family: 'Roboto Condensed' !important;
+}
+
+section{
+    padding: 60px 0;
+}
+
+.logo-image{
+    width:40px;
+}
+
+.headbars{
+    --bs-accordion-active-bg: #ffffff !important;
+}
