@@ -1,5 +1,5 @@
 body{
-    //font-family: 'Roboto Condensed' !important;
+    font-family: 'Roboto Condensed' !important;
 }
 
 section{
@@ -12,4 +12,5 @@ section{
 
 .headbars{
     --bs-accordion-active-bg: #ffffff !important;
+
 }
