@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>MMELO PORTFOLIO</title>
 
@@ -14,7 +15,7 @@
         <a href="#intro" class="navbar-brand">
             <img src="assets/img/logo.png" class="mt-1 logo-image" alt="Logo">
             <span class="fw-bold text-white mt-1 My-logo-brand ">
-                Mmelo Jnr - Skills Page
+             Mmelo Jnr - Skills Page
             </span>
         </a>
         <!--toggle button for mobile nav -->
@@ -42,7 +43,7 @@
                 <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item ms-2 d-none d-md-inline mt-1">
-                <a class="btn btn-warning fw-bold" href="#pricing">Download CV</a>
+                <a class="btn btn-warning fw-bold" href="#pricing"><i class="bi bi-download"></i> Download CV</a>
               </li>
             </ul>
           </div>
@@ -53,7 +54,7 @@
 <!-- Main Image & Intro Text -->
 <section id="intro">
     <div class="container-lg">
-        <div class="row justify-content-center align-items-center mt-5">
+        <div class="row justify-content-center align-items-center mt-4">
             <div class="col-md-5 text-center text-md-start">
                 <h1>
                     <div class="display-2 fw-bold text-info">Mmelo Jnr</div>
@@ -61,9 +62,9 @@
                 </h1>
                 <p class="display-6 my-2"><span class="fw-bold text-info">Am a Passionate IT professional known for 
                     Web Dev, Apps & Cyber Security </span></p>
-                <a href="#pricing" class="btn btn-info btn-lg fw-bold text-white mt-4">Explore My Services</a>
+                <a href="#pricing" class="btn btn-info btn-lg fw-bold text-white mt-4"><i class="bi bi-eye-fill text-white"></i> Explore My Services</a>
             </div>
-            <div class="col-md-5 text-center">
+            <div class="col-md-5 text-center d-none d-md-block">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -88,7 +89,7 @@
 <section id="pricing" class="bg-light mt-5 mb-5">
     <div class="container-lg">
         <div class="text-center">
-            <h2>Pricing Plans</h2>
+            <h2><i class="bi bi-currency-dollar"></i> Pricing Plans</h2>
             <p class="lead text-muted">Choose a Pricing Plan to suit you.</p>
         </div>
 
@@ -137,7 +138,7 @@
 <section id="topics">
     <div class="container-md">
         <div class="text-center">
-            <h2>Skill Set...</h2>
+            <h2><i class="bi bi-mortarboard"></i> Skill Set...</h2>
             <p class="lead text-muted">A quick glance at the Skills I acquire</p>
         </div>
         <div class="row my-1 g-5 justify-content-around align-items-center">
@@ -159,11 +160,11 @@
                         aria-labelledby="heading-1" data-bs-parent="#chapters">
                         <div class="accordion-body">
                             <ul class="list-group list-group-flush">
-                                <li class="lead list-group-item">Website & Web App Development<span class="float-end btn btn-primary mt-0">View</button></span></li>
-                                <li class="lead list-group-item">Custom System Development<span class="float-end btn btn-primary mt-0">View</button></span></li>
-                                <li class="lead list-group-item">Backend Programming<span class="float-end btn btn-primary mt-0">View</button></span></li>
-                                <li class="lead list-group-item">Maintenance & Support<span class="float-end btn btn-primary mt-0">View</button></span></li>
-                                <li class="lead list-group-item">API Integration<span class="float-end btn btn-primary mt-0">View</button></span></li>
+                                <li class="lead list-group-item">Website & Web App Development</li>
+                                <li class="lead list-group-item">Custom System Development</li>
+                                <li class="lead list-group-item">Backend Programming</li>
+                                <li class="lead list-group-item">Maintenance & Support</li>
+                                <li class="lead list-group-item">API Integration</li>
                             </ul>
                         </div>   
                     </div>
@@ -272,7 +273,7 @@
 <section id="reviews" class="bg-light">
     <div class="container-lg">
         <div class="text-center">
-            <h2>Book Reviews</h2>
+            <h2><i class="bi bi-stars"></i> Book Reviews</h2>
             <p class="lead">What my Clients have said about my Services...</p>
         </div>
 
@@ -280,6 +281,13 @@
             <div class="col-lg-8">
                 <div class="list-group">
                     <div class="list-group-item py-3">
+                        <div class="pb-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
                         <h5 class="mb-1">A Must buy for every aspiring web dev</h5>
                         <p class="mb-1">Lorem ipsum dolor sit amet 
                             consectetur, adipisicing elit. 
@@ -310,7 +318,56 @@
 </section>
 
 <!-- Contact Form -->
+<section id="contact">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>Get in Touch</h2>
+            <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+        </div>
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+                <form action="">
+                    <label for="email" class="form-label">Email Address:</label>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                        <input type="email" class="form-control" id="email" placeholder="e.g. mmelo@examle.com">
+                    </div>
+                   
+                    <label for="name" class="form-label">Name:</label>
+                    <div class="input-group mb-4">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                        </span>
+                        <input type="text" class="form-control" id="name" placeholder="e.g Mmelo">
+                    </div>
+                   
 
+                    <label for="subject" class="form-label">What is your quesion about?</label>
+                    <div class="input-group mb-4">
+                        <span class="input-group-text">
+                            <i class="bi bi-chat-right-dots-fill"></i>
+                        </span>
+                        <select class="form-select" id="subject">
+                            <option value="pricing" selected>Pricing Querry</option>
+                            <option value="content">Content Querry</option>
+                            <option value="other">Other Querry</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-floating mb-4 mt-5">
+                        <textarea id="query" class="form-control" style="height: 140px"></textarea>
+                        <label for="query" class="form-label">Your query...</label>
+                    </div>
+
+                    <div class="mb-4 text-center">
+                        <button type="submit" class="btn btn-secondary"><i class="bi bi-upload"></i> Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -319,8 +376,4 @@
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
-
-
-
